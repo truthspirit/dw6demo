@@ -77,10 +77,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Dropwizard6Service.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Dropwizard6Service.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dw6service/src/Dropwizard6Service.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.3691074" vertical-offset="0" max-vertical-offset="1620">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1620">
               <caret line="91" column="105" selection-start-line="91" selection-start-column="105" selection-end-line="91" selection-end-column="105" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -93,6 +93,16 @@
                 <element signature="e#2605#2780#0" expanded="true" />
                 <element signature="e#2769#2770#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dw6service/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.07716049" vertical-offset="0" max-vertical-offset="972">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -168,6 +178,7 @@
         <option value="$PROJECT_DIR$/dw6service/test/Dropwizard6ServiceResourceTest.java" />
         <option value="$PROJECT_DIR$/dw6service/src/HelpfulServiceProvider.java" />
         <option value="$PROJECT_DIR$/dw6service/src/Dropwizard6Service.java" />
+        <option value="$PROJECT_DIR$/dw6service/.gitignore" />
       </list>
     </option>
   </component>
@@ -508,12 +519,12 @@
       <changelist id="c770acf9-7066-462c-b6ee-661694f8b6e0" name="Default" comment="" />
       <created>1425929360740</created>
       <updated>1425929360740</updated>
-      <workItem from="1425929362532" duration="6312000" />
+      <workItem from="1425929362532" duration="6423000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6312000" />
+    <option name="totallyTimeSpent" value="6423000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1920" height="1090" extended-state="0" />
@@ -699,7 +710,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dw6service/src/Dropwizard6Service.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.3691074" vertical-offset="0" max-vertical-offset="1620">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1620">
           <caret line="91" column="105" selection-start-line="91" selection-start-column="105" selection-end-line="91" selection-end-column="105" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -712,6 +723,14 @@
             <element signature="e#2605#2780#0" expanded="true" />
             <element signature="e#2769#2770#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dw6service/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.07716049" vertical-offset="0" max-vertical-offset="972">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
