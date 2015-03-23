@@ -97,7 +97,7 @@ public class Dropwizard6Service extends Application<Dropwizard6Configuration> {
                 .threads(corePoolSize)
                 .build();
 
-        environment.servlets().addFilter("loggedContextFilter", new LoggerContextFilter()).addMappingForUrlPatterns(EnumSet.of(DispatcherType.REQUEST), true, "/logged");
+        environment.servlets().addFilter("loggedContextFilter", new LoggerContextFilter()).addMappingForUrlPatterns(EnumSet.allOf(DispatcherType.class), true, "/loggedpath");
 
         environment.servlets().addServlet("ping", PingServlet.class).addMapping("/ping");
 

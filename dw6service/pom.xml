@@ -9,7 +9,7 @@
     <version>1.0</version>
 
     <scm>
-        <connection>scm:git:git@github.com:truthspirit/dw6demo</connection>
+        <connection>scm:git:git@github.com:truthspirit/dw6demo.git</connection>
         <tag>HEAD</tag>
     </scm>
 
