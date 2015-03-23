@@ -23,9 +23,6 @@ import java.io.InputStreamReader;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.TimeUnit;
 
-/**
- * Created by timothy.maxwell on 3/9/15.
- */
 public class Dropwizard6Service extends Service<Dropwizard6Configuration> {
 
     @Override
