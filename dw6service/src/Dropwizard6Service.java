@@ -17,10 +17,12 @@ import io.dropwizard.setup.Environment;
 import io.dropwizard.util.Duration;
 import org.eclipse.jetty.server.Server;
 
+import javax.servlet.DispatcherType;
 import java.io.BufferedReader;
 import java.io.Closeable;
 import java.io.FileInputStream;
 import java.io.InputStreamReader;
+import java.util.EnumSet;
 import java.util.concurrent.ExecutorService;
 
 public class Dropwizard6Service extends Application<Dropwizard6Configuration> {
@@ -95,7 +97,7 @@ public class Dropwizard6Service extends Application<Dropwizard6Configuration> {
                 .threads(corePoolSize)
                 .build();
 
-        environment.servlets().addFilter("loggedContextFilter", new LoggerContextFilter()).addMappingForUrlPatterns();
+        environment.servlets().addFilter("loggedContextFilter", new LoggerContextFilter()).addMappingForUrlPatterns(EnumSet.of(DispatcherType.REQUEST), true, "/logged");
 
         environment.servlets().addServlet("ping", PingServlet.class).addMapping("/ping");
 

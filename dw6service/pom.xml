@@ -8,6 +8,11 @@
     <artifactId>dw6demo</artifactId>
     <version>1.0</version>
 
+    <scm>
+        <connection>scm:git:git@github.com:truthspirit/dw6demo</connection>
+        <tag>HEAD</tag>
+    </scm>
+
     <dependencies>
         <dependency>
             <groupId>io.dropwizard</groupId>
